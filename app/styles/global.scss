@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Rosca";
+  src: url("/fonts/Rosca.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "RoscaSlant";
+  src: url("/fonts/Rosca-Slant.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Rosca", system-ui, sans-serif;
+  background-color: green;
+}
